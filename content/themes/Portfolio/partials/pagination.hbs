@@ -2,11 +2,11 @@
 <nav class="pagination">
     <div class="pagination__wrap">
 	    {{#if next}}
-	        <a class="pagination__item pagination__item--link pagination__item--older" href="{{page_url next}}">Older posts</a>
+	        <a class="pagination__item pagination__item--link pagination__item--older" href="{{page_url next}}">Posts Antiguos</a>
 	    {{/if}}
-	   	<span class="pagination__item pagination__item--counter">Page {{page}} of {{pages}}</span>
+	   	<span class="pagination__item pagination__item--counter">Pg {{page}} de {{pages}}</span>
 	    {{#if prev}}
-	        <a class="pagination__item pagination__item--link pagination__item--newer" href="{{page_url prev}}">Newer posts</a>
+	        <a class="pagination__item pagination__item--link pagination__item--newer" href="{{page_url prev}}">Posts Recientes</a>
 	    {{/if}}
 	</div>
 </nav>
