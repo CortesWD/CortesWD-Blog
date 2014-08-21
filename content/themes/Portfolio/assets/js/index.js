@@ -94,5 +94,25 @@
             main_menu.addClass("menu--open");
           }
         });
+
+        //get firts image og data
+
+        function content()
+        {
+          var wrapper = $(".post__content")
+          var img     = wrapper.find('p > img')[0];
+          var src = $(img).attr('src');
+
+          var metaImg =  $("meta[name='twitter:image']");
+          // var cadena = $(src).toString();
+
+          if(metaImg)
+          {
+            $(metaImg).attr('content', src);
+          }
+        }
+        content();
+
+
     });
 }(jQuery));
