@@ -13,10 +13,23 @@
     <meta name="MobileOptimized" content="320" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    <!--Adding Facebook graph metatags-->
     <meta property="og:type" content="article">
     <meta property="og:title" content="{{meta_title}}">
-    <meta property="og:description" content="{{meta_description}}">
+    <meta property="og:description" content="{{content}}">
+    <meta property="og:site_name" content="CortesWD | El greñero" />
+
     {{! Loading additional OpenGraph metatags}}
+
+
+    <!--Twitter card-->
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@Cort3sWD">
+    <meta name="twitter:creator" content="@Cort3sWD">
+    <meta name="twitter:title" content="{{meta_title}}">
+    <meta name="twitter:description" content="{{content}}">
+
     {{{block "metaTags"}}}
 
     <link rel="shortcut icon" href="{{asset "favicon.ico"}}">
