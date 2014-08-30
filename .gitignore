@@ -2,6 +2,7 @@
 node_modules
 content/data/ghost-dev.db
 content/themes/Portfolio/stylus
+notas
 
 # Windows image file caches
 Thumbs.db
