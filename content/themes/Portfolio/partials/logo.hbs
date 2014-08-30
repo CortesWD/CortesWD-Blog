@@ -4,9 +4,9 @@
     		<img src="{{@blog.logo}}" alt="{{@blog.title}} - {{@blog.description}}" />
     	</a>
     {{else}}
-	    <h1 class="logo__title">
+	    <h2 class="logo__title">
 	    	<a href="{{@blog.url}}" class="logo__link">{{@blog.title}}</a>
-	    </h1>
+	    </h2>
 	    {{#if @blog.description}}
 	    <h2 class="logo__desc">{{@blog.description}}</h2>
 	    {{/if}}
