@@ -1,0 +1,57 @@
+.bgWhite {
+  background-color: transparent !important;
+  background-image: url("../images/ie/space.png") !important;
+  background-repeat: repeat;
+}
+.bgWhiteTitle,
+.section-title {
+  background-color: transparent !important;
+  background-image: url("../images/ie/bgTitle.png") !important;
+  background-repeat: repeat;
+}
+.bgMask {
+  background-image: url("../images/ie/bg-mask.png") !important;
+  background-repeat: no-repeat;
+  backgroud-position: top center;
+  height: 720px !important;
+}
+.ieClose {
+  background-image: url("../images/ie/close.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 0 !important;
+  height: 31px !important;
+  width: 31px !important;
+}
+.navegacion {
+  left: 21%;
+}
+.navegacion .left {
+  float: left;
+}
+.nav-ejecutiva {
+  left: 64% !important;
+}
+.nav-economica {
+  left: -22% !important;
+}
+.imgOne {
+  top: 40px !important;
+}
+.ventEx,
+.ventEco {
+  width: 130px !important;
+}
+.onBoardEx,
+.onBoardEco {
+  width: 140px !important;
+}
+.Title {
+  top: 4% !important;
+}
+.contentYoutube {
+  height: 680px;
+  width: 960px;
+  left: 0;
+  top: 10%;
+}
