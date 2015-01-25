@@ -959,11 +959,43 @@ $(document).on("ready", function () {
 		
 	};
 
+	function ventanaEco () {
+
+		//Ocultamos los otros contenidos
+		// $(slideSillasEx).fadeOut();
+
+		//Mostramos el overlay
+		$(contenedor).css("display", "block");
+		$(contenedor).removeClass('fadeOut');
+		$(contenedor).addClass('animated fadeIn');
+		// $(contenedor).one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', cargaStuff);
+		//Cargamos el contenido actual
+		$(cargador).attr('src', 'partials/ventanas-economico.html');
+		
+	};
+
+	function VentiEco () {
+
+		//Ocultamos los otros contenidos
+		// $(slideSillasEx).fadeOut();
+
+		//Mostramos el overlay
+		$(contenedor).css("display", "block");
+		$(contenedor).removeClass('fadeOut');
+		$(contenedor).addClass('animated fadeIn');
+		// $(contenedor).one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', cargaStuff);
+		//Cargamos el contenido actual
+		$(cargador).attr('src', 'partials/ventilacion-economico.html');
+		
+	};
+
+
+
 	//Disparamos acciones con los botones
 
 	$(btnScreenEco).click(ScreenEco);
-	$(btnVentanaEco).click(ventanaExe);
-	$(btnVentEco).click(ventiExe);
+	$(btnVentanaEco).click(ventanaEco);
+	$(btnVentEco).click(VentiEco);
 
 	//:::::::::::Contenido Entretenimiento::::::::::::::
 
