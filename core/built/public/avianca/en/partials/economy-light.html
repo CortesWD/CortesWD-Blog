@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="es" class="no-js"> <!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Avianca | Boeing 787</title>
+	<link rel="stylesheet" href="../css/main.css">
+	<link rel="stylesheet" href="../css/animate.css">
+	<!--[if lt IE 8]>
+	<link rel="stylesheet" href="../css/ie7.css">
+
+	<script src="../ie7/ie7.js"></script>
+	<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<!--<![endif]-->
+
+	<script src="../js/libs/modernizr-2.6.2.min.js"></script>
+
+	<style>
+	body
+	{
+		background: transparent;
+		overflow:  hidden;
+	}
+	.slidesjs-pagination
+	{
+		left: 19.9em !important
+	}
+
+	</style>
+</head>
+<body>
+	<div class="gradient" style="top:0;z-index:13;"></div>
+	<div id="Light">
+			<div style="position: absolute;z-index:999;" class="Title animated fadeInLeft"><h2><span class="icon icon-light"></span> Lighting</h2>
+			<div class="animated copy" style="display:none; position:relative; height:28px;margin-left:0.5em;width:320px;top:-16px;left:0px">
+		        We set the mood for each stage of your flight with 8 types of lights that will make you feel more relaxed.
+		    </div>
+		    </div>
+		<div id="slider">
+			<img src="../images/contenido/29.jpg" />
+			<img src="../images/contenido/30.jpg" />
+			<img src="../images/contenido/31.jpg" />
+			<img src="../images/contenido/32.jpg" />
+			<img src="../images/contenido/33.jpg" />
+			<img src="../images/contenido/34.jpg" />
+			<img src="../images/contenido/35.jpg" />
+			
+		  <div href="#" class="slidesjs-previous slidesjs-navigation"><span class="icon icon-left-over"></span></div>
+		  <div href="#" class="slidesjs-next slidesjs-navigation"><span class="icon icon-right-over"></span></div>
+		</div>
+		<!-- <div class="gradient"></div> -->
+	</div>
+
+
+	<script type="text/javascript" src="../js/libs/jquery.js"></script>
+	<script type="text/javascript" src="../js/libs/jquery.slides.min.js"></script>
+	<script type="text/javascript" src="../js/main.js"></script>
+	<script type="text/javascript" src="../js/ie.js"></script>
+	<script>
+	  $(function() {
+	    $('#slider').slidesjs({
+	      width: 960,
+	      height: 720,
+	      navigation: {
+	      	active: false, 
+	        effect: "fade"
+	      },
+	      pagination: {
+	        effect: "fade"
+	      },
+	      effect: {
+	        fade: {
+	          speed: 1000
+	        }
+	      },
+	      play: {
+	            active: true,
+	              // [boolean] Generate the play and stop buttons.
+	              // You cannot use your own buttons. Sorry.
+	            effect: "fade",
+	              // [string] Can be either "slide" or "fade".
+	            interval: 5000,
+	              // [number] Time spent on each slide in milliseconds.
+	            auto: true,
+	              // [boolean] Start playing the slideshow on load.
+	            swap: true,
+	              // [boolean] show/hide stop and play buttons
+	            pauseOnHover: true,
+	              // [boolean] pause a playing slideshow on hover
+	            restartDelay: 2500
+	              // [number] restart delay on inactive slideshow
+	          }
+	    });
+	  });
+	</script>
+	<script>
+	$(document).on('ready', function() {
+		$(".Title").one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function () {
+
+			$(".copy").css("display", "block");
+			
+			$(".copy").addClass('fadeInDown');
+
+			$(".copy").one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function () {
+
+				$(".copy2").css("display", "block");
+				
+				$(".copy2").addClass('fadeInDown');
+			 
+			})
+		 
+		});
+	});
+	</script>
+
+</body>
+</html>
