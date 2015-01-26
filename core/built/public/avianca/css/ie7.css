@@ -1,62 +1,65 @@
+.icon-menu-lang {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe614;');
+}
 .icon-home {
-	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe60b;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe60b;');
 }
 .icon-snacks {
-	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe613;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe613;');
 }
 .icon-bath {
-	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe600;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe600;');
 }
 .icon-confort {
-	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe601;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe601;');
 }
 .icon-entretenimiento {
-	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe602;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe602;');
 }
 .icon-left-over {
-	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe603;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe603;');
 }
 .icon-light {
-	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe604;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe604;');
 }
 .icon-menu {
-	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe605;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe605;');
 }
 .icon-on-board {
-	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe606;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe606;');
 }
 .icon-pasillos {
-	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe607;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe607;');
 }
 .icon-right-over {
-	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe608;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe608;');
 }
 .icon-screen {
-	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe609;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe609;');
 }
 .icon-sillas {
-	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe60a;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe60a;');
 }
 .icon-tech {
-	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe60c;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe60c;');
 }
 .icon-tv {
-	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe60d;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe60d;');
 }
 .icon-ventana {
-	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe60e;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe60e;');
 }
 .icon-ventilacion {
-	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe60f;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe60f;');
 }
 .icon-close {
-	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe610;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe610;');
 }
 .icon-left {
-	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe611;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe611;');
 }
 .icon-right {
-	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe612;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe612;');
 }
 
 .bgWhite {
@@ -115,4 +118,20 @@
   width: 960px;
   left: 0;
   top: 10%;
+}
+
+.slidesjs-pagination {
+  left: 420px;
+  width: 500px;
+}
+.slidesjs-pagination li {
+  display: inline-block;
+  height: 32px !important;
+  vertical-align: middle;
+  float: left !important;
+  width: 32px !important;
+}
+.slidesjs-pagination li a {
+  text-indent: -100px !important;
+  color: transparent !important;
 }

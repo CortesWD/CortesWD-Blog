@@ -13,6 +13,7 @@
 		el.innerHTML = '<span style="font-family: \'a787\'">' + entity + '</span>' + html;
 	}
 	var icons = {
+		'icon-menu-lang': '&#xe614;',
 		'icon-home': '&#xe60b;',
 		'icon-snacks': '&#xe613;',
 		'icon-bath': '&#xe600;',
