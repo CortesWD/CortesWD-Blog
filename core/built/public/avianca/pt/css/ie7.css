@@ -1,0 +1,137 @@
+.icon-menu-lang {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe614;');
+}
+.icon-home {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe60b;');
+}
+.icon-snacks {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe613;');
+}
+.icon-bath {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe600;');
+}
+.icon-confort {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe601;');
+}
+.icon-entretenimiento {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe602;');
+}
+.icon-left-over {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe603;');
+}
+.icon-light {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe604;');
+}
+.icon-menu {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe605;');
+}
+.icon-on-board {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe606;');
+}
+.icon-pasillos {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe607;');
+}
+.icon-right-over {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe608;');
+}
+.icon-screen {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe609;');
+}
+.icon-sillas {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe60a;');
+}
+.icon-tech {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe60c;');
+}
+.icon-tv {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe60d;');
+}
+.icon-ventana {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe60e;');
+}
+.icon-ventilacion {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe60f;');
+}
+.icon-close {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe610;');
+}
+.icon-left {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe611;');
+}
+.icon-right {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe612;');
+}
+
+.bgWhite {
+  background-color: transparent !important;
+  background-image: url("../images/ie/space.png") !important;
+  background-repeat: repeat;
+}
+.bgWhiteTitle,
+.section-title {
+  background-color: transparent !important;
+  background-image: url("../images/ie/bgTitle.png") !important;
+  background-repeat: repeat;
+}
+.bgMask {
+  background-image: url("../images/ie/bg-mask.png") !important;
+  background-repeat: no-repeat;
+  backgroud-position: top center;
+  height: 720px !important;
+}
+.ieClose {
+  background-image: url("../images/ie/close.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 0 !important;
+  height: 31px !important;
+  width: 31px !important;
+}
+.navegacion {
+  left: 21%;
+}
+.navegacion .left {
+  float: left;
+}
+.nav-ejecutiva {
+  left: 64% !important;
+}
+.nav-economica {
+  left: -22% !important;
+}
+.imgOne {
+  top: 40px !important;
+}
+.ventEx,
+.ventEco {
+  width: 130px !important;
+}
+.onBoardEx,
+.onBoardEco {
+  width: 140px !important;
+}
+.Title {
+  top: 4% !important;
+}
+.contentYoutube {
+  height: 680px;
+  width: 960px;
+  left: 0;
+  top: 10%;
+}
+
+.slidesjs-pagination {
+  left: 420px;
+  width: 500px;
+}
+.slidesjs-pagination li {
+  display: inline-block;
+  height: 32px !important;
+  vertical-align: middle;
+  float: left !important;
+  width: 32px !important;
+}
+.slidesjs-pagination li a {
+  text-indent: -100px !important;
+  color: transparent !important;
+}
