@@ -728,7 +728,7 @@ $(document).on("ready", function () {
 		// $(contenedor).one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', cargaStuff);
 
 		//Cargamos el contenido actual
-		$(cargador).attr('src', 'partials/sillas-ejecutivo.html');
+		$(cargador).attr('src', 'partials/business-seats.html');
 		// function cargaStuff () {
 			
 		// };
@@ -746,7 +746,7 @@ $(document).on("ready", function () {
 		$(contenedor).addClass('animated fadeIn');
 		// $(contenedor).one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', cargaStuff);
 		//Cargamos el contenido actual
-		$(cargador).attr('src', 'partials/pasillos-ejecutivo.html');
+		$(cargador).attr('src', 'partials/business-aisles.html');
 		
 	};
 
@@ -762,7 +762,7 @@ $(document).on("ready", function () {
 		$(contenedor).addClass('animated fadeIn');
 		// $(contenedor).one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', cargaStuff);
 		//Cargamos el contenido actual
-		$(cargador).attr('src', 'partials/bano-ejecutivo.html');
+		$(cargador).attr('src', 'partials/business-bath.html');
 		
 	};
 
@@ -778,7 +778,7 @@ $(document).on("ready", function () {
 		$(contenedor).addClass('animated fadeIn');
 		// $(contenedor).one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', cargaStuff);
 		//Cargamos el contenido actual
-		$(cargador).attr('src', 'partials/light-ejecutivo.html');
+		$(cargador).attr('src', 'partials/business-light.html');
 		
 	};
 
@@ -810,7 +810,7 @@ $(document).on("ready", function () {
 		// $(contenedor).one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', cargaStuff);
 
 		//Cargamos el contenido actual
-		$(cargador).attr('src', 'partials/sillas-economico.html');
+		$(cargador).attr('src', 'partials/economy-seats.html');
 		// function cargaStuff () {
 			
 		// };
@@ -828,7 +828,7 @@ $(document).on("ready", function () {
 		$(contenedor).addClass('animated fadeIn');
 		// $(contenedor).one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', cargaStuff);
 		//Cargamos el contenido actual
-		$(cargador).attr('src', 'partials/pasillos-economico.html');
+		$(cargador).attr('src', 'partials/economy-aisles.html');
 		
 	};
 
@@ -844,7 +844,7 @@ $(document).on("ready", function () {
 		$(contenedor).addClass('animated fadeIn');
 		// $(contenedor).one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', cargaStuff);
 		//Cargamos el contenido actual
-		$(cargador).attr('src', 'partials/bano-ejecutivo.html');
+		$(cargador).attr('src', 'partials/business-bath.html');
 		
 	};
 
@@ -860,7 +860,7 @@ $(document).on("ready", function () {
 		$(contenedor).addClass('animated fadeIn');
 		// $(contenedor).one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', cargaStuff);
 		//Cargamos el contenido actual
-		$(cargador).attr('src', 'partials/light-economico.html');
+		$(cargador).attr('src', 'partials/economy-light.html');
 		
 	};
 
@@ -892,7 +892,7 @@ $(document).on("ready", function () {
 		$(contenedor).addClass('animated fadeIn');
 		// $(contenedor).one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', cargaStuff);
 		//Cargamos el contenido actual
-		$(cargador).attr('src', 'partials/tecnoscreen-ejecutivo.html');
+		$(cargador).attr('src', 'partials/business-tecnoscreen.html');
 		
 	};
 
@@ -908,7 +908,7 @@ $(document).on("ready", function () {
 		$(contenedor).addClass('animated fadeIn');
 		// $(contenedor).one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', cargaStuff);
 		//Cargamos el contenido actual
-		$(cargador).attr('src', 'partials/ventanas-ejecutivo.html');
+		$(cargador).attr('src', 'partials/business-window.html');
 		
 	};
 
@@ -924,7 +924,7 @@ $(document).on("ready", function () {
 		$(contenedor).addClass('animated fadeIn');
 		// $(contenedor).one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', cargaStuff);
 		//Cargamos el contenido actual
-		$(cargador).attr('src', 'partials/ventilacion-ejecutivo.html');
+		$(cargador).attr('src', 'partials/business-ventilation.html');
 		
 	};
 
@@ -955,7 +955,7 @@ $(document).on("ready", function () {
 		$(contenedor).addClass('animated fadeIn');
 		// $(contenedor).one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', cargaStuff);
 		//Cargamos el contenido actual
-		$(cargador).attr('src', 'partials/tecnoscreen-economico.html');
+		$(cargador).attr('src', 'partials/economy-tecnoscreen.html');
 		
 	};
 
@@ -985,7 +985,7 @@ $(document).on("ready", function () {
 		$(contenedor).addClass('animated fadeIn');
 		// $(contenedor).one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', cargaStuff);
 		//Cargamos el contenido actual
-		$(cargador).attr('src', 'partials/ventilacion-economico.html');
+		$(cargador).attr('src', 'partials/economy-window.html');
 		
 	};
 
@@ -1017,7 +1017,7 @@ $(document).on("ready", function () {
 		$(contenedor).addClass('animated fadeIn');
 		// $(contenedor).one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', cargaStuff);
 		//Cargamos el contenido actual
-		$(cargador).attr('src', 'partials/on-board-ejecutivo.html');
+		$(cargador).attr('src', 'partials/business-on-board.html');
 		
 	};
 
@@ -1033,7 +1033,7 @@ $(document).on("ready", function () {
 		$(contenedor).addClass('animated fadeIn');
 		// $(contenedor).one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', cargaStuff);
 		//Cargamos el contenido actual
-		$(cargador).attr('src', 'partials/autoservicio-ejecutivo.html');
+		$(cargador).attr('src', 'partials/self-service.html');
 		
 	};
 	//Disparamos acciones con los botones
@@ -1059,7 +1059,7 @@ $(document).on("ready", function () {
 		$(contenedor).addClass('animated fadeIn');
 		// $(contenedor).one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', cargaStuff);
 		//Cargamos el contenido actual
-		$(cargador).attr('src', 'partials/on-board-economico.html');
+		$(cargador).attr('src', 'partials/economy-on-board.html');
 		
 	};
 
@@ -1074,7 +1074,7 @@ $(document).on("ready", function () {
 		$(contenedor).addClass('animated fadeIn');
 		// $(contenedor).one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', cargaStuff);
 		//Cargamos el contenido actual
-		$(cargador).attr('src', 'partials/ventilacion-economico.html');
+		$(cargador).attr('src', 'partials/economy-ventilation.html');
 		
 	};
 
